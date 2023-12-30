@@ -1,0 +1,54 @@
+#score{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(41, 233, 239));
+}
+h1{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(5, 255, 138), rgb(95, 189, 194));
+    color: rgb(40, 192, 108);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-left: 100px;
+}
+#show_sketch{
+    float: right;
+    box-shadow: 5px 5px 50px rgb(85, 207, 247);
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color: rgb(81, 255, 0);
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: canvaaa;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvaaa {
+
+  from {box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+  to {box-shadow: 1px 1px 38px rgb(0, 185, 202);}
+
+}
